@@ -44,6 +44,7 @@ const Header = () => {
   return (
     <div className="container">
       <Menu
+        className="mb-4"
         onClick={onClick}
         selectedKeys={[current]}
         mode="horizontal"
